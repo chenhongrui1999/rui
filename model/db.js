@@ -28,7 +28,7 @@ db.connection = function(){
         host:'localhost',
         user:'root',
         password:'root',
-        database:'book',
+        database:'pointSystem',
         port:3306
     });
     //数据库连接
