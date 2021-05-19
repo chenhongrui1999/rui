@@ -33,9 +33,6 @@ Date.prototype.format = function(format)
  return format;
 }
 
- 
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -83,6 +80,7 @@ app.use(function (req, res, next) {
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+//注册接口
 app.use('/register',registerRouter)
 
 //插入测试
